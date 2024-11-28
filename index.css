@@ -147,3 +147,7 @@ main {
 #send-button:hover {
     background-color: #45a049;
 }
+
+img {
+    margin-right: -300px;
+}
