@@ -148,6 +148,13 @@ main {
     background-color: #45a049;
 }
 
-img {
+.will {
     margin-right: -300px;
+}
+
+@media (max-width: 768px) {
+    .will {
+        display: none;
+    }
+
 }
