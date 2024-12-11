@@ -19,16 +19,18 @@ body {
 }
 
 header {
+    display: flex;
     background-color: #0073e6;
     color: white;
     padding: 10px;
     text-align: center;
+    justify-content: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 70vh;
 }
 
 #chat-log {
@@ -104,7 +106,7 @@ main {
 
 .user-message {
     align-self: flex-end;
-    background-color: #e0f7fa;
+    background-color: #0073e6;
     margin: 5px;
     padding: 10px;
     border-radius: 15px;
@@ -114,7 +116,7 @@ main {
 
 .assistant-message {
     align-self: flex-start;
-    background-color: #f0f4c3;
+    background-color: #f1f1f1;
     margin: 5px;
     padding: 10px;
     border-radius: 15px;
@@ -126,26 +128,6 @@ main {
     display: flex;
     gap: 10px;
     margin-top: 10px;
-}
-
-#user-input {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-#send-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#send-button:hover {
-    background-color: #45a049;
 }
 
 .will {
