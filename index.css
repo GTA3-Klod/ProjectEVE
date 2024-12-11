@@ -132,8 +132,49 @@ main {
 }
 
 @media (max-width: 768px) {
-    .will {
+    .Will {
         display: none;
     }
+    .fac-logo {
+        height: 75px;
+        width: 75px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+}
 
+@media (max-width: 844px) {
+    .Will {
+        height: 450px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 896px) {
+    .Will {
+        height: 450px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 932px) {
+    .Will {
+        height: 500px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        max-height: 70vh;
+    }
 }
