@@ -132,7 +132,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    .Will {
+    .will {
         display: none;
     }
     .fac-logo {
@@ -150,21 +150,21 @@ main {
 }
 
 @media (max-width: 844px) {
-    .Will {
+    .will {
         height: 450px;
         width: 350px;
     }
 }
 
 @media (max-width: 896px) {
-    .Will {
+    .will {
         height: 450px;
         width: 350px;
     }
 }
 
 @media (max-width: 932px) {
-    .Will {
+    .will {
         height: 500px;
         width: 350px;
     }
