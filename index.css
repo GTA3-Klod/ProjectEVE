@@ -130,12 +130,12 @@ main {
     margin-top: 10px;
 }
 
-.will {
+.Will {
     margin-right: -300px;
 }
 
 @media (max-width: 768px) {
-    .will {
+    .Will {
         display: none;
     }
 
