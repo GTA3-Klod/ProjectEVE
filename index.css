@@ -30,8 +30,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    max-height: 70vh;
+    height: 80vh;
 }
 
 #chat-log {
